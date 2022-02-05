@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0d192b;
+}
+
+.card {
+  background-color: #14253d;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.card__img {
+  width: 300px;
+  height: 300px;
+  border: 5px solid green;
+}
+.card__img img {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
